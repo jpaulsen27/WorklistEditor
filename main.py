@@ -10,6 +10,8 @@ import editors.bhp
 
 import editors.functional
 
+import editors.hcys
+
 from os import listdir
 
 
@@ -141,3 +143,23 @@ for name in worklists:
         editors.functional.functional_9_build(name)
     if "functional_10_" in name:
         editors.functional.functional_10_build(name)
+    if "functional_1_" in name:
+        editors.hcys.hcys_1_build(name)
+    if "functional_2_" in name:
+        editors.hcys.hcys_2_build(name)
+    if "functional_3_" in name:
+        editors.hcys.hcys_3_build(name)
+    if "functional_4_" in name:
+        editors.hcys.hcys_4_build(name)
+    if "functional_5_" in name:
+        editors.hcys.hcys_5_build(name)
+    if "functional_6_" in name:
+        editors.hcys.hcys_6_build(name)
+    if "functional_7_" in name:
+        editors.hcys.hcys_7_build(name)
+    if "functional_8_" in name:
+        editors.hcys.hcys_8_build(name)
+    if "functional_9_" in name:
+        editors.hcys.hcys_9_build(name)
+    if "functional_10_" in name:
+        editors.hcys.hcys_10_build(name)
