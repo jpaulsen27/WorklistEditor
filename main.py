@@ -20,8 +20,8 @@ def find_filenames(path_to_dir, suffix=".csv"):
     return [filename for filename in worklists if filename.endswith(suffix)]
 
 
-find_filenames(r"F:\WMD\output\Worklist Editor", suffix=".csv")
-worklists = find_filenames(r"F:\WMD\output\Worklist Editor")
+find_filenames(r"F:\WorklistEditor-master\output\Worklist Editor", suffix=".csv")
+worklists = find_filenames(r"F:\WorklistEditor-master\output\Worklist Editor")
 for name in worklists:
     if "ETOH_1_" in name:
         editors.etoh.etoh_1_build(name)
