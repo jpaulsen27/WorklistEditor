@@ -123,43 +123,43 @@ for name in worklists:
         editors.bhp.bhp_9_build(name)
     if "BHP_10_" in name:
         editors.bhp.bhp_10_build(name)
-    if "functional_1_" in name:
+    if "Functional Biomarker_1_" in name:
         editors.functional.functional_1_build(name)
-    if "functional_2_" in name:
+    if "Functional Biomarker_2_" in name:
         editors.functional.functional_2_build(name)
-    if "functional_3_" in name:
+    if "Functional Biomarker_3_" in name:
         editors.functional.functional_3_build(name)
-    if "functional_4_" in name:
+    if "Functional Biomarker_4_" in name:
         editors.functional.functional_4_build(name)
-    if "functional_5_" in name:
+    if "Functional Biomarker_5_" in name:
         editors.functional.functional_5_build(name)
-    if "functional_6_" in name:
+    if "Functional Biomarker_6_" in name:
         editors.functional.functional_6_build(name)
-    if "functional_7_" in name:
+    if "Functional Biomarker_7_" in name:
         editors.functional.functional_7_build(name)
-    if "functional_8_" in name:
+    if "Functional Biomarker_8_" in name:
         editors.functional.functional_8_build(name)
-    if "functional_9_" in name:
+    if "Functional Biomarker_9_" in name:
         editors.functional.functional_9_build(name)
-    if "functional_10_" in name:
+    if "Functional Biomarker_10_" in name:
         editors.functional.functional_10_build(name)
-    if "functional_1_" in name:
+    if "Functional Biomarker_1_" in name:
         editors.hcys.hcys_1_build(name)
-    if "functional_2_" in name:
+    if "Functional Biomarker_2_" in name:
         editors.hcys.hcys_2_build(name)
-    if "functional_3_" in name:
+    if "Functional Biomarker_3_" in name:
         editors.hcys.hcys_3_build(name)
-    if "functional_4_" in name:
+    if "Functional Biomarker_4_" in name:
         editors.hcys.hcys_4_build(name)
-    if "functional_5_" in name:
+    if "Functional Biomarker_5_" in name:
         editors.hcys.hcys_5_build(name)
-    if "functional_6_" in name:
+    if "Functional Biomarker_6_" in name:
         editors.hcys.hcys_6_build(name)
-    if "functional_7_" in name:
+    if "Functional Biomarker_7_" in name:
         editors.hcys.hcys_7_build(name)
-    if "functional_8_" in name:
+    if "Functional Biomarker_8_" in name:
         editors.hcys.hcys_8_build(name)
-    if "functional_9_" in name:
+    if "Functional Biomarker_9_" in name:
         editors.hcys.hcys_9_build(name)
-    if "functional_10_" in name:
+    if "Functional Biomarker_10_" in name:
         editors.hcys.hcys_10_build(name)
