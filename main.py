@@ -20,6 +20,7 @@ def find_filenames(path_to_dir, suffix=".csv"):
     return [filename for filename in worklists if filename.endswith(suffix)]
 
 #  File path set to only work on HERA instrument for testing will update in the future to be able to run universally.
+#  Adding each file path possible is the working solution currently as a general directory search is too broad.
 
 
 find_filenames(r"L:\Worklist Editor", suffix=".csv")
