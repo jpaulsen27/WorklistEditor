@@ -5,7 +5,7 @@ def hcys_1_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         for n in range(0, len(line)):
             if n == (len(line) - 1):
@@ -22,7 +22,7 @@ def hcys_2_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         if line[1][1] == "1":
             line[1] = "P3" + line[1][2:5]
@@ -42,7 +42,7 @@ def hcys_3_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         if line[1][1] == "1":
             line[1] = "P5" + line[1][2:5]
@@ -62,7 +62,7 @@ def hcys_4_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         if line[1][1] == "1":
             line[1] = "P7" + line[1][2:5]
@@ -82,7 +82,7 @@ def hcys_5_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         if line[1][1] == "1":
             line[1] = "P1" + line[1][2:5]
@@ -102,7 +102,7 @@ def hcys_6_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         for n in range(0, len(line)):
             if n == (len(line) - 1):
@@ -118,7 +118,7 @@ def hcys_7_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         for n in range(0, len(line)):
             if n == (len(line) - 1):
@@ -134,7 +134,7 @@ def hcys_8_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         for n in range(0, len(line)):
             if n == (len(line) - 1):
@@ -150,7 +150,7 @@ def hcys_9_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         for n in range(0, len(line)):
             if n == (len(line) - 1):
@@ -166,7 +166,7 @@ def hcys_10_build(filename):
     print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
-        if line[2] == "FUNCTIONAL BIOMARKER.m":
+        if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
         for n in range(0, len(line)):
             if n == (len(line) - 1):

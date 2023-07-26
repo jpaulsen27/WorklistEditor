@@ -19,9 +19,11 @@ def find_filenames(path_to_dir, suffix=".csv"):
     worklists = listdir(path_to_dir)
     return [filename for filename in worklists if filename.endswith(suffix)]
 
+#  File path set to only work on HERA instrument for testing will update in the future to be able to run universally.
 
-find_filenames(r"F:", suffix=".csv")
-worklists = find_filenames(r"F:")
+
+find_filenames(r"L:\Worklist Editor", suffix=".csv")
+worklists = find_filenames(r"L:\Worklist Editor")
 for name in worklists:
     if "ETOH_1_" in name:
         editors.etoh.etoh_1_build(name)
