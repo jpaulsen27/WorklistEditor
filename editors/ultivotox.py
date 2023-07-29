@@ -425,6 +425,7 @@ def ultivotox_10_build(filename):
     lines = open(filename, 'r').readlines()
     output = open("ultiovotox10.csv", 'w')
     print(lines[0], end="", file=output)
+    print(lines[1], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -459,25 +460,6 @@ def ultivotox_10_build(filename):
             print("NEG,P1E1,ULTIVO TOX.m,NEG8,,", file=output)
         if line[0] == "CAL0020POST":
             print("NEG,P2E1,ULTIVO TOX.m,NEG8,,", file=output)
-    print(lines[1], end="", file=output)
-    for i in range(2, len(lines)):
-        line = lines[i][0:-1].split(',')
-        if line[1][1:5] == "1C2":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG1,,", file=output)
-        if line[1][1:5] == "1E2":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG2,,", file=output)
-        if line[1][1:5] == "1G1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG3,,", file=output)
-        if line[1][1:5] == "2C2":
-            print("NEG,P2E1,ULTIVO TOX.m,NEG1,,", file=output)
-        if line[1][1:5] == "2E2":
-            print("NEG,P2E1,ULTIVO TOX.m,NEG2,,", file=output)
-        if line[1][1:5] == "2G1":
-            print("NEG,P2E1,ULTIVO TOX.m,NEG3,,", file=output)
-        if line[0] == "CAL0019POST":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG4,,", file=output)
-        if line[0] == "CAL0020POST":
-            print("NEG,P2E1,ULTIVO TOX.m,NEG4,,", file=output)
         for n in range(0, len(line)):
             if n == (len(line) - 1):
                 print(line[n], file=output)
