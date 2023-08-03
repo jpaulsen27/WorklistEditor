@@ -5,7 +5,6 @@ def bhp_1_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -23,7 +22,6 @@ def bhp_2_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -41,7 +39,6 @@ def bhp_3_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -59,7 +56,6 @@ def bhp_4_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -77,7 +73,6 @@ def bhp_5_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -95,7 +90,6 @@ def bhp_6_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -113,7 +107,6 @@ def bhp_7_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -131,7 +124,6 @@ def bhp_8_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -149,7 +141,6 @@ def bhp_9_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -167,7 +158,6 @@ def bhp_10_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):

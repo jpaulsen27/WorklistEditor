@@ -6,7 +6,6 @@ def ultivotox_1_build(filename):
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":

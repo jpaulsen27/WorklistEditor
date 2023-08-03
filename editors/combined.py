@@ -5,7 +5,6 @@ def combined_1_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -54,7 +53,6 @@ def combined_2_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -103,7 +101,6 @@ def combined_3_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -152,7 +149,6 @@ def combined_4_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -201,7 +197,6 @@ def combined_5_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -250,7 +245,6 @@ def combined_6_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -299,7 +293,6 @@ def combined_7_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -348,7 +341,6 @@ def combined_8_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -397,7 +389,6 @@ def combined_9_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -446,7 +437,6 @@ def combined_10_build(filename):
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
     print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":

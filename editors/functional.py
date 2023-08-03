@@ -7,7 +7,6 @@ def functional_1_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -27,7 +26,6 @@ def functional_2_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -47,7 +45,6 @@ def functional_3_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -67,7 +64,6 @@ def functional_4_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -87,7 +83,6 @@ def functional_5_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -107,7 +102,6 @@ def functional_6_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -127,7 +121,6 @@ def functional_7_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -147,7 +140,6 @@ def functional_8_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -167,7 +159,6 @@ def functional_9_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -187,7 +178,6 @@ def functional_10_build(filename):
     print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):

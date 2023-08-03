@@ -7,7 +7,6 @@ def hcys_1_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -29,7 +28,6 @@ def hcys_2_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -54,7 +52,6 @@ def hcys_3_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -79,7 +76,6 @@ def hcys_4_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -104,7 +100,6 @@ def hcys_5_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -129,7 +124,6 @@ def hcys_6_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -150,7 +144,6 @@ def hcys_7_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -171,7 +164,6 @@ def hcys_8_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -192,7 +184,6 @@ def hcys_9_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
@@ -213,7 +204,6 @@ def hcys_10_build(filename):
     print("Blank3,VIAL 1,BHP.m,Blank3,,", file=output)
     print("Blank4,VIAL 1,BHP.m,Blank4,,", file=output)
     print("Blank5,VIAL 1,BHP.m,Blank5,,", file=output)
-    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
