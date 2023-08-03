@@ -2,7 +2,10 @@ def acidics_1_build(filename):
     lines = open(filename, 'r').readlines()
     output = open("acidics1.csv", 'w')
     print(lines[0], end="", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank1,VIAL 1,Ultivo Acidics.m,Blank1,,", file=output)
+    print("Blank2,VIAL 1,Ultivo Acidics.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Acidics.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "ACIDIC.m":
@@ -20,6 +23,10 @@ def acidics_2_build(filename):
     output = open("acidics2.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank1,VIAL 1,Ultivo Acidics.m,Blank1,,", file=output)
+    print("Blank2,VIAL 1,Ultivo Acidics.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Acidics.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[2] == "ACIDIC.m":

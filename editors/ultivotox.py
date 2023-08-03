@@ -3,6 +3,10 @@ def ultivotox_1_build(filename):
     output = open("ultiovotox1.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -50,6 +54,10 @@ def ultivotox_2_build(filename):
     output = open("ultiovotox2.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -97,6 +105,10 @@ def ultivotox_3_build(filename):
     output = open("ultiovotox3.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -144,6 +156,10 @@ def ultivotox_4_build(filename):
     output = open("ultiovotox4.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -191,6 +207,10 @@ def ultivotox_5_build(filename):
     output = open("ultiovotox5.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -238,6 +258,10 @@ def ultivotox_6_build(filename):
     output = open("ultiovotox6.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -285,6 +309,10 @@ def ultivotox_7_build(filename):
     output = open("ultiovotox7.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -332,6 +360,10 @@ def ultivotox_8_build(filename):
     output = open("ultiovotox8.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -379,6 +411,10 @@ def ultivotox_9_build(filename):
     output = open("ultiovotox9.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -426,6 +462,10 @@ def ultivotox_10_build(filename):
     output = open("ultiovotox10.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Ultivo Tox.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Ultivo Tox.m,Blank4,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":

@@ -3,7 +3,11 @@ def functional_1_build(filename):
     output = open("functional1.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -19,7 +23,11 @@ def functional_2_build(filename):
     output = open("functional2.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -35,7 +43,11 @@ def functional_3_build(filename):
     output = open("functional3.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -51,7 +63,11 @@ def functional_4_build(filename):
     output = open("functional4.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -67,7 +83,11 @@ def functional_5_build(filename):
     output = open("functional5.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -83,7 +103,11 @@ def functional_6_build(filename):
     output = open("functional6.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -99,7 +123,11 @@ def functional_7_build(filename):
     output = open("functional7.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -115,7 +143,11 @@ def functional_8_build(filename):
     output = open("functional8.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -131,7 +163,11 @@ def functional_9_build(filename):
     output = open("functional9.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):
@@ -147,7 +183,11 @@ def functional_10_build(filename):
     output = open("functional10.csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
-    print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Functional Biomarker.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,Functional Biomarker.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,Functional Biomarker.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         for n in range(0, len(line)):

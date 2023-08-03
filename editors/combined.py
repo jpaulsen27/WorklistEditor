@@ -3,6 +3,9 @@ def combined_1_build(filename):
     output = open("combined1.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -49,6 +52,9 @@ def combined_2_build(filename):
     output = open("combined2.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -95,6 +101,9 @@ def combined_3_build(filename):
     output = open("combined3.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -141,6 +150,9 @@ def combined_4_build(filename):
     output = open("combined4.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -187,6 +199,9 @@ def combined_5_build(filename):
     output = open("combined5.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -233,6 +248,9 @@ def combined_6_build(filename):
     output = open("combined6.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -279,6 +297,9 @@ def combined_7_build(filename):
     output = open("combined7.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -325,6 +346,9 @@ def combined_8_build(filename):
     output = open("combined8.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -371,6 +395,9 @@ def combined_9_build(filename):
     output = open("combined9.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":
@@ -417,6 +444,9 @@ def combined_10_build(filename):
     output = open("combined10.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,Combined.m,Blank3,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[1][1:5] == "1C2":

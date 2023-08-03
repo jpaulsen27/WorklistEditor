@@ -15,7 +15,7 @@ import editors.hcys
 from os import listdir
 
 
-def find_filenames(path_to_dir, suffix=".csv"):
+def find_filenames(path_to_dir,  suffix=".csv"):
     worklists = listdir(path_to_dir)
     return [filename for filename in worklists if filename.endswith(suffix)]
 

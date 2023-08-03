@@ -3,6 +3,11 @@ def etoh_1_build(filename):
     output = open("etoh1.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,ETOH.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,ETOH.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,ETOH.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,ETOH.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[5] == "L1":
@@ -93,6 +98,11 @@ def etoh_5_build(filename):
     output = open("etoh5.csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
+    print("Blank2,VIAL 1,ETOH.m,Blank2,,", file=output)
+    print("Blank3,VIAL 1,ETOH.m,Blank3,,", file=output)
+    print("Blank4,VIAL 1,ETOH.m,Blank4,,", file=output)
+    print("Blank5,VIAL 1,ETOH.m,Blank5,,", file=output)
+    print(lines[2], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
         if line[5] == "L1":
