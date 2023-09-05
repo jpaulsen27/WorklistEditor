@@ -137,6 +137,8 @@ def acidics_8_build(filename):
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
+        if line[2] == "ACIDIC.m":
+            line[2] = "ULTIVO ACIDICS.m"
         if line[1][1] == "1":
             line[1] = "P7" + line[1][2:5]
         if line[1][1] == "2":
