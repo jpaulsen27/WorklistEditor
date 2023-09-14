@@ -23,7 +23,7 @@ def ultivotox_1_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG6,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG14,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG14,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG1,,", file=output)
         if line[1][1:5] == "1D2":
@@ -73,7 +73,7 @@ def ultivotox_2_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG30,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG31,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG31,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG17,,", file=output)
         if line[1][1:5] == "1D2":
@@ -123,7 +123,7 @@ def ultivotox_3_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG46,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG47,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG47,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG33,,", file=output)
         if line[1][1:5] == "1D2":
@@ -173,7 +173,7 @@ def ultivotox_4_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG62,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG63,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG63,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG49,,", file=output)
         if line[1][1:5] == "1D2":
@@ -223,7 +223,7 @@ def ultivotox_5_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG78,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG79,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG79,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG65,,", file=output)
         if line[1][1:5] == "1D2":
@@ -273,7 +273,7 @@ def ultivotox_6_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG94,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG95,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG95,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG81,,", file=output)
         if line[1][1:5] == "1D2":
@@ -323,7 +323,7 @@ def ultivotox_7_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG110,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG111,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG111,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG97,,", file=output)
         if line[1][1:5] == "1D2":
@@ -373,7 +373,7 @@ def ultivotox_8_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG126,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG127,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG127,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG113,,", file=output)
         if line[1][1:5] == "1D2":
@@ -423,7 +423,7 @@ def ultivotox_9_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG142,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG143,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG143,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG129,,", file=output)
         if line[1][1:5] == "1D2":
@@ -473,7 +473,7 @@ def ultivotox_10_build(filename):
         if line[1][1:5] == "2G1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG158,,", file=output)
         if line[1][1:5] == "2H1":
-            print("NEG,P1E1,ULTIVO TOX.m,NEG159,,", file=output)
+            print("NEG,P2E1,ULTIVO TOX.m,NEG159,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG145,,", file=output)
         if line[1][1:5] == "1D2":
