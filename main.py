@@ -126,7 +126,8 @@ for name in worklists:
         editors.bhp.bhp_9_build(name)
     if "BHP_10_" in name:
         editors.bhp.bhp_10_build(name)
-    if "Functional Biomarker_1_" in name:
+# Commented out functional and HCYS functionality.
+    """if "Functional Biomarker_1_" in name:
         editors.functional.functional_1_build(name)
     if "Functional Biomarker_2_" in name:
         editors.functional.functional_2_build(name)
@@ -165,4 +166,4 @@ for name in worklists:
     if "Functional Biomarker_9_" in name:
         editors.hcys.hcys_9_build(name)
     if "Functional Biomarker_10_" in name:
-        editors.hcys.hcys_10_build(name)
+        editors.hcys.hcys_10_build(name)"""
