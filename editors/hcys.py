@@ -11,6 +11,8 @@ def hcys_1_build(filename):
         line = lines[i][0:-1].split(',')
         if line[2] == "Functional Biomarker.m":
             line[2] = "HCYS.m"
+        if line[3][7:27] == "Functional Biomarker":
+            line[3] = line[3][0:6] + "HCYS" + line[3][28:40]
         for n in range(0, len(line)):
             if n == (len(line) - 1):
                 print(line[n], file=output)
