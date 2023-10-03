@@ -16,8 +16,10 @@ from os import listdir
 
 from datetime import date
 
+import os
 
-def find_filenames(path_to_dir,  suffix=".csv"):
+
+def find_filenames(path_to_dir, suffix=".csv"):
     worklists = listdir(path_to_dir)
     return [filename for filename in worklists if filename.endswith(suffix)]
 
@@ -167,3 +169,8 @@ for name in worklists:
         editors.hcys.hcys_9_build(name)
     if "Functional Biomarker_10_" + today_corrected in name:
         editors.hcys.hcys_10_build(name)
+for name in worklists:
+    if today_corrected in name:
+        print("The Worklist Editor ran successfully")
+    else:
+        os.rename('L:\Worklist Editor\\' + name, "L:\Worklist Editor\Archive\\" + name)
