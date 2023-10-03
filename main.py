@@ -169,8 +169,11 @@ for name in worklists:
         editors.hcys.hcys_9_build(name)
     if "Functional Biomarker_10_" + today_corrected in name:
         editors.hcys.hcys_10_build(name)
-for name in worklists:
+
+find_filenames(r"L:\Worklist Editor", suffix=".csv")
+updated_worklists = find_filenames(r"L:\Worklist Editor")
+for name in updated_worklists:
     if today_corrected in name:
         print("The Worklist Editor ran successfully")
     else:
-        os.rename('L:\Worklist Editor\\' + name, "L:\Worklist Editor\Archive\\" + name)
+        os.rename("L:\Worklist Editor\\" + name, "L:\Worklist Editor\Archive\\" + name)
