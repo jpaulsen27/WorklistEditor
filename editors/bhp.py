@@ -1,6 +1,11 @@
+from datetime import date
+
+
 def bhp_1_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp1.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp1_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)
@@ -16,8 +21,10 @@ def bhp_1_build(filename):
 
 
 def bhp_2_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp2.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp2_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)
@@ -33,8 +40,10 @@ def bhp_2_build(filename):
 
 
 def bhp_3_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp3.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp3_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)
@@ -50,8 +59,10 @@ def bhp_3_build(filename):
 
 
 def bhp_4_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp4.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp4_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)
@@ -67,8 +78,10 @@ def bhp_4_build(filename):
 
 
 def bhp_5_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp5.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp5_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)
@@ -84,8 +97,10 @@ def bhp_5_build(filename):
 
 
 def bhp_6_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp6.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp6_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank2,,", file=output)
@@ -101,8 +116,10 @@ def bhp_6_build(filename):
 
 
 def bhp_7_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp7.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp7_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)
@@ -118,8 +135,10 @@ def bhp_7_build(filename):
 
 
 def bhp_8_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp8.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp8_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)
@@ -135,8 +154,10 @@ def bhp_8_build(filename):
 
 
 def bhp_9_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp9.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp9_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)
@@ -152,8 +173,10 @@ def bhp_9_build(filename):
 
 
 def bhp_10_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("bhp10.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("bhp10_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,BHP.m,Blank22,,", file=output)

@@ -1,6 +1,11 @@
+from datetime import date
+
+
 def acidics_1_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics1.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics1_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,Ultivo Acidics.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,Ultivo Acidics.m,Blank2,,", file=output)
@@ -18,8 +23,10 @@ def acidics_1_build(filename):
 
 
 def acidics_2_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics2.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics2_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,Ultivo Acidics.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,Ultivo Acidics.m,Blank2,,", file=output)
@@ -37,8 +44,10 @@ def acidics_2_build(filename):
 
 
 def acidics_3_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics3.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics3_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -56,8 +65,10 @@ def acidics_3_build(filename):
 
 
 def acidics_4_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics4.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics4_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -75,8 +86,10 @@ def acidics_4_build(filename):
 
 
 def acidics_5_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics5.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics5_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -94,8 +107,10 @@ def acidics_5_build(filename):
 
 
 def acidics_6_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics6.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics6_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -113,8 +128,10 @@ def acidics_6_build(filename):
 
 
 def acidics_7_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics7.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics7_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -132,8 +149,10 @@ def acidics_7_build(filename):
 
 
 def acidics_8_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics8.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics8_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -151,8 +170,10 @@ def acidics_8_build(filename):
 
 
 def acidics_9_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics9.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics9_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -166,8 +187,10 @@ def acidics_9_build(filename):
 
 
 def acidics_10_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("acidics10.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("acidics10_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')

@@ -1,6 +1,11 @@
+from datetime import date
+
+
 def hcys_1_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys1.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys1_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -22,8 +27,10 @@ def hcys_1_build(filename):
 
 
 def hcys_2_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys2.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys2_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -48,8 +55,10 @@ def hcys_2_build(filename):
 
 
 def hcys_3_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys3.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys3_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -74,8 +83,10 @@ def hcys_3_build(filename):
 
 
 def hcys_4_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys4.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys4_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -100,8 +111,10 @@ def hcys_4_build(filename):
 
 
 def hcys_5_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys5.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys5_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -126,8 +139,10 @@ def hcys_5_build(filename):
 
 
 def hcys_6_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys6.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys6_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -152,8 +167,10 @@ def hcys_6_build(filename):
 
 
 def hcys_7_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys7.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys7_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -178,8 +195,10 @@ def hcys_7_build(filename):
 
 
 def hcys_8_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys8.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys8_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -204,8 +223,10 @@ def hcys_8_build(filename):
 
 
 def hcys_9_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys9.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys9_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)
@@ -226,8 +247,10 @@ def hcys_9_build(filename):
 
 
 def hcys_10_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("hcys10.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("hcys10_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("Blank1,VIAL 1,HCYS.m,Blank1,,", file=output)
     print("Blank2,VIAL 1,HCYS.m,Blank2,,", file=output)

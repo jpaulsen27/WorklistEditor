@@ -1,6 +1,11 @@
+from datetime import date
+
+
 def functional_1_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional1.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional1_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -18,8 +23,10 @@ def functional_1_build(filename):
 
 
 def functional_2_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional2.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional2_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -37,8 +44,10 @@ def functional_2_build(filename):
 
 
 def functional_3_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional3.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional3_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -56,8 +65,10 @@ def functional_3_build(filename):
 
 
 def functional_4_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional4.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional4_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -75,8 +86,10 @@ def functional_4_build(filename):
 
 
 def functional_5_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional5.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional5_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -94,8 +107,10 @@ def functional_5_build(filename):
 
 
 def functional_6_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional6.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional6_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -113,8 +128,10 @@ def functional_6_build(filename):
 
 
 def functional_7_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional7.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional7_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -132,8 +149,10 @@ def functional_7_build(filename):
 
 
 def functional_8_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional8.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional8_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -151,8 +170,10 @@ def functional_8_build(filename):
 
 
 def functional_9_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional9.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional9_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)
@@ -170,8 +191,10 @@ def functional_9_build(filename):
 
 
 def functional_10_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("functional10.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("functional10_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print("5HR REST,VIAL 1,5HR-REST.M,5HR REST,,", file=output)
     print("Blank2,VIAL 1,Functional Biomarker.m,Blank2,,", file=output)

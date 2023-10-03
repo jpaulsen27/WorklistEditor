@@ -1,6 +1,11 @@
+from datetime import date
+
+
 def ultivotox_1_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox1.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox1_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -49,8 +54,10 @@ def ultivotox_1_build(filename):
 
 
 def ultivotox_2_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox2.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox2_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -99,8 +106,10 @@ def ultivotox_2_build(filename):
 
 
 def ultivotox_3_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox3.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox3_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -149,8 +158,10 @@ def ultivotox_3_build(filename):
 
 
 def ultivotox_4_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox4.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox4_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -199,8 +210,10 @@ def ultivotox_4_build(filename):
 
 
 def ultivotox_5_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox5.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox5_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -249,8 +262,10 @@ def ultivotox_5_build(filename):
 
 
 def ultivotox_6_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox6.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox6_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -299,8 +314,10 @@ def ultivotox_6_build(filename):
 
 
 def ultivotox_7_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox7.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox7_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -349,8 +366,10 @@ def ultivotox_7_build(filename):
 
 
 def ultivotox_8_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox8.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox8_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -399,8 +418,10 @@ def ultivotox_8_build(filename):
 
 
 def ultivotox_9_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox9.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox9_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
@@ -449,8 +470,10 @@ def ultivotox_9_build(filename):
 
 
 def ultivotox_10_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("ultiovotox10.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("ultivotox10_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Ultivo Tox.m,Blank2,,", file=output)
