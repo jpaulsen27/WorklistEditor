@@ -26,9 +26,9 @@ def ultivotox_1_build(filename):
         if line[1][1:5] == "2E2":
             print("NEG,P2E1,ULTIVO TOX.m,NEG12,,", file=output)
         if line[1][1:5] == "2G1":
-            print("NEG,P2E1,ULTIVO TOX.m,NEG6,,", file=output)
-        if line[1][1:5] == "2H1":
             print("NEG,P2E1,ULTIVO TOX.m,NEG14,,", file=output)
+        if line[1][1:5] == "2H1":
+            print("NEG,P2E1,ULTIVO TOX.m,NEG15,,", file=output)
         if line[1][1:5] == "1B2":
             print("NEG,P1E1,ULTIVO TOX.m,NEG1,,", file=output)
         if line[1][1:5] == "1D2":
