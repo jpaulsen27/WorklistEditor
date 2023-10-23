@@ -1,6 +1,11 @@
+from datetime import date
+
+
 def combined_1_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined1.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined1_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -47,8 +52,10 @@ def combined_1_build(filename):
 
 
 def combined_2_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined2.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined2_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -95,8 +102,10 @@ def combined_2_build(filename):
 
 
 def combined_3_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined3.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined3_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -143,8 +152,10 @@ def combined_3_build(filename):
 
 
 def combined_4_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined4.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined4_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -191,8 +202,10 @@ def combined_4_build(filename):
 
 
 def combined_5_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined5.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined5_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -239,8 +252,10 @@ def combined_5_build(filename):
 
 
 def combined_6_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined6.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined6_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -287,8 +302,10 @@ def combined_6_build(filename):
 
 
 def combined_7_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined7.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined7_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -335,8 +352,10 @@ def combined_7_build(filename):
 
 
 def combined_8_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined8.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined8_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -383,8 +402,10 @@ def combined_8_build(filename):
 
 
 def combined_9_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined9.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined9_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)
@@ -431,8 +452,10 @@ def combined_9_build(filename):
 
 
 def combined_10_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("combined10.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("combined10_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,Combined.m,Blank2,,", file=output)

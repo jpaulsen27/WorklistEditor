@@ -1,6 +1,10 @@
+from datetime import date
+
 def etoh_1_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh1.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh1_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,ETOH.m,Blank2,,", file=output)
@@ -24,8 +28,10 @@ def etoh_1_build(filename):
 
 
 def etoh_2_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh2.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh2_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -47,8 +53,10 @@ def etoh_2_build(filename):
 
 
 def etoh_3_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh3.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh3_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -70,8 +78,10 @@ def etoh_3_build(filename):
 
 
 def etoh_4_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh4.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh4_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -93,8 +103,10 @@ def etoh_4_build(filename):
 
 
 def etoh_5_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh5.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh5_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     print(lines[1], end="", file=output)
     print("Blank2,VIAL 1,ETOH.m,Blank2,,", file=output)
@@ -118,8 +130,10 @@ def etoh_5_build(filename):
 
 
 def etoh_6_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh6.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh6_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -141,8 +155,10 @@ def etoh_6_build(filename):
 
 
 def etoh_7_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh7.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh7_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -164,8 +180,10 @@ def etoh_7_build(filename):
 
 
 def etoh_8_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh8.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh8_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -187,8 +205,10 @@ def etoh_8_build(filename):
 
 
 def etoh_9_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh9.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh9_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
@@ -206,8 +226,10 @@ def etoh_9_build(filename):
 
 
 def etoh_10_build(filename):
-    lines = open(filename, 'r').readlines()
-    output = open("etoh10.csv", 'w')
+    today = date.today()
+    today_corrected = str(today.strftime('%m%d%y'))
+    lines = open("L:\\" + filename, 'r').readlines()
+    output = open("etoh10_" + today_corrected + ".csv", 'w')
     print(lines[0], end="", file=output)
     for i in range(2, len(lines)):
         line = lines[i][0:-1].split(',')
